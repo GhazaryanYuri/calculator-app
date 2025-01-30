@@ -56,6 +56,12 @@ body {
         &.number {
           background: #d4d4d2;
         }
+
+        &.delete {
+          grid-column: span 4;
+          background: red;
+          color: white;
+        }
       }
     }
   }
